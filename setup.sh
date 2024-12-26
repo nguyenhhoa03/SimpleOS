@@ -46,3 +46,6 @@ flatpak install flathub ru.linux_gaming.PortProton
 flatpak install flathub org.stellarium.Stellarium
 flatpak install flathub org.geogebra.GeoGebra
 
+# System apps
+flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub org.gnome.seahorse.Application
