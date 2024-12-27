@@ -15,32 +15,24 @@ apt autoremove -y
 apt install flatpak
 apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-reboot
+#reboot
 
 # Productivity apps
 flatpak install flathub md.obsidian.Obsidian
 flatpak install flathub org.onlyoffice.desktopeditors
 
 # Design apps
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub org.inkscape.Inkscape
 flatpak install flathub page.kramo.Sly
 
 # Media apps
 flatpak install flathub org.videolan.VLC
-flatpak install flathub org.kde.kdenlive
-flatpak install flathub org.audacityteam.Audacity
 flatpak install flathub org.gnome.NetworkDisplays
 
 # Development apps
-flatpak install flathub com.visualstudio.code
-flatpak install flathub com.getpostman.Postman
-flatpak install flathub cc.arduino.IDE2
-flatpak install flathub re.sonny.Workbench
+flatpak install flathub org.kde.kate
 
 # Gaming apps
 flatpak install flathub net.lutris.Lutris
-flatpak install flathub ru.linux_gaming.PortProton
 
 # Education apps
 flatpak install flathub org.stellarium.Stellarium
@@ -48,4 +40,3 @@ flatpak install flathub org.geogebra.GeoGebra
 
 # System apps
 flatpak install flathub com.mattjakeman.ExtensionManager
-flatpak install flathub org.gnome.seahorse.Application
